@@ -13,11 +13,11 @@ int main()
     cv::Mat imgDiffColor, imgBlur, imgCanny, imgDilate, imgErode;
 
     cv::cvtColor(img, imgDiffColor, cv::COLOR_RGB2GRAY); //_RGB2HLS = try this :) //_RGB2XYZ = pink pale
-    cv::GaussianBlur(img, imgBlur, cv::Size(3,3), 5, 0); // Size needs odd numbers.
+    cv::GaussianBlur(imgDiffColor, imgBlur, cv::Size(3,3), 5, 0); // Size needs odd numbers.
     cv::Canny(imgBlur, imgCanny, 40, 80); //Common practice to canny with blur image it gives less lines // lower the values more the lines
     
     cv::Mat kernel = cv::getStructuringElement(cv::MORPH_RECT, cv::Size(5, 5));
-    cv::dilate(imgCanny, imgDilate, kernel); // 
+    cv::dilate(imgCanny, imgDilate, kernel); // Dilating
     cv::erode(imgDilate, imgErode, kernel); // Erozyon
 
     cv::imshow("Christian Bale", img);
