@@ -41,4 +41,11 @@ This repositoriy contains of **7** OpenCV projects. Which will be described at t
 ![Capture8](https://github.com/YagizBasaran/Human-Detection/assets/91428580/0f386b27-b922-41c3-9b3e-c61c6c7f86c0)
 
 
+# EXTRAS
+## *Cell Finder
+- This program helps to find zooblasts. Colour detection algorithm is used. Three choices are available for visibility.
+![cellPicture](https://github.com/YagizBasaran/Human-Detection/assets/91428580/3eed6aa4-54e3-43a2-affa-bd765dc0b45e)
+
+
+
   
