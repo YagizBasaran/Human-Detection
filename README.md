@@ -1,6 +1,6 @@
 # OpenCV Programs
 
-This repositoriy contains of **7** OpenCV projects. Which will be described at the bottom with pictures and details. Thanks for looking to it.
+This repositoriy contains of **7** OpenCV projects. Which will be described at the bottom with pictures and details. Thanks for looking to it. (There might be extra projects coming from job or friend requests.)
 
 ❗❗❗❗***Best one is at the bottom do not forget to check that out!***
 
