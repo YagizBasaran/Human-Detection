@@ -40,7 +40,7 @@ cv::Mat colorFinder(string path) {
 
 int main() {
 
-	string path = "C:/Users/Bediha ÞAHÝN BAÞARAN/Source/Repos/Test1/Cells01.jpg"; // PATH
+	string path = "Cells01.jpg"; // PATH
 
 	cv::Mat img = cv::imread(path);
 	cv::Mat cellImg = colorFinder(path); //black and white
