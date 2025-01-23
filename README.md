@@ -33,7 +33,7 @@ This repositoriy contains of **7** OpenCV projects. Which will be described at t
 ![Capture6](https://github.com/YagizBasaran/Human-Detection/assets/91428580/e9366746-54f5-4305-9d4e-64d0506e57ac)
 
 ## 6) Find Shape (Demo)
-- This program helps to find shapes. It is demo right now because author is lazy and impatient to code which shape is which when more corners occur.
+- This program helps to find shapes. It is demo right now because author is energetic but impatient to code which shape is which when more corners occur.
 ![Capture7](https://github.com/YagizBasaran/Human-Detection/assets/91428580/b4aa7a96-6f92-484a-8097-db9f0fa76c6c)
 
 # 7) Face Detection
